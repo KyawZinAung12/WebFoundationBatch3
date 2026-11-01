@@ -62,3 +62,85 @@
     border: 1px solid #2d3892;
 
 }
+
+/* end navbar */
+
+
+/* start bunner */
+.bunner{
+    background-image: url(../images/banner2.png);
+    height: 70vh;
+    background-size: cover;
+}
+.bunner_text{
+    margin-left: 120px;
+    padding-top: 100px;
+}
+.bunner_text h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-bottom: 14px;
+}
+.bunner_text h2{
+    font-size: 30px;
+    color: #9c7a1d;
+    margin-bottom: 20px;
+}
+.bunner_text p{
+    color: #FFFFFF;
+    width: 500px;
+    line-height: 30px;
+}
+.our_package{
+    display: inline-block;
+    background-color: #9c7a1d;
+    border: 1px solid #9c7a1d;
+    color: #FFFFFF;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 30px;
+    font-weight: bold;
+}
+.our_package:hover{
+    background-color: transparent;
+    color: #9c7a1d;
+    border: 1px solid #9c7a1d;
+}
+/* end bunner */
+
+/* start service */
+.services{
+    margin-top: 80px;
+    text-align: center;
+    /* margin-bottom: 400px; */
+}
+.service_hr{
+    width: 100px;
+    margin: auto;
+    height: 2px;
+    background-color: #000000;
+    margin-top: 6px;
+}
+.service_cards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 40px 150px 0px;
+    gap: 30px;
+}
+.service_card{
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 20px;
+}
+.service_card h3{
+    margin-bottom: 10px;
+}
+.service_card p{
+    font-size: 16px;
+}
+.service_icon{
+    color: #2d3892;
+    margin-bottom: 10px;
+}
